@@ -1,3 +1,50 @@
 import pygame
 
 print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__name__ == "__main__"
