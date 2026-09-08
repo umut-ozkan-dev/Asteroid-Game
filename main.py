@@ -1,5 +1,14 @@
 import pygame
-from constants import *
+from constants import SCREEN_WIDTH, SCREEN_HEIGHT
+from logger import log_state
 
-print(f"Screen width: {SCREEN_WIDTH}")
-print(f"Sreen width: {SCREEN_HEIGHT}")
+pygame.init()
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+while True:
+    log_state()
+    for event in pygame.event.get():
+        pass
+
+    screen.fill("black")
+    pygame.display.flip()
