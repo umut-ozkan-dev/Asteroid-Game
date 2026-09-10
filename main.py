@@ -8,6 +8,9 @@ clock = pygame.time.Clock()
 dt = 0.0
 
 
+# deneme yorum ekledim
+# this is an experiment 
+
 while True:
     dt = clock.tick(60) / 1000
     print(dt)
